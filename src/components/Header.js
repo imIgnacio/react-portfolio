@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import Navigation from "./Navigation";
 
-function Bucket() {
+function Header() {
 
-  return <h2>I'm a header</h2>;
+  return <div className="header">
+    <h1 className="name">Ignacio's React Portfolio</h1
+    ><Navigation/>
+    </div>
+
 }
 
-export default Bucket;
+export default Header;

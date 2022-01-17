@@ -6,7 +6,6 @@ function Portfolio() {
 
   return (
     <div>
-      <h1>Ignacio's React-Portfolio</h1>
       <Header/>
       
       <Footer/>
