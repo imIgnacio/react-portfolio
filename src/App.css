@@ -4,7 +4,7 @@
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  color: white;
+  color: #f8c291;
 }
 
 body {
@@ -15,19 +15,23 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: black;
+  background-color: #0c2461;
   text-align: center;
 }
 
 h1 {
   margin: 32px 0;
-  color: #fff;
-  font-size: 24px;
+  color: #b8e994;
+  font-size: 32px;
   margin-left: 20px;
 }
 
 h2 {
-  color: white;
+  color: #b8e994;
+}
+
+hr {
+  color: #eb2f06;
 }
 
 .header {
@@ -35,4 +39,35 @@ h2 {
   flex-direction: row;
   justify-content:space-between;
   align-items:baseline;
+  background-color: #001f3f;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  margin: 10px 0;
+}
+
+.about p {
+  text-align: justify;
+  margin: 0 16px;
+}
+
+.main-paragraph {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  align-items: center;
+}
+
+.selfie {
+  height: 240px;
+  width: 135px;
+  border: 1px solid #eb2f06;
+  border-radius: 20px;
 }
