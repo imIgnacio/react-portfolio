@@ -18,7 +18,7 @@ const styles = {
 function Navigation() {
     return <ul style={styles.ul}>
         <li style={styles.li}><a style={styles.a} href="#">Home</a></li>
-        <li style={styles.li}><a style={styles.a} href="#">About</a></li>
+        <li style={styles.li}><a style={styles.a} href="about">About</a></li>
         <li style={styles.li}><a style={styles.a} href="#">Contact</a></li>
         <li style={styles.li}><a style={styles.a} href="#">Resume</a></li>
     </ul>

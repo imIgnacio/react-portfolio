@@ -30,6 +30,10 @@ h2 {
   color: #b8e994;
 }
 
+h3 {
+  margin-top: 20px;
+}
+
 hr {
   color: #eb2f06;
 }
@@ -47,6 +51,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 40px 0;
 }
 
 .about-title {
