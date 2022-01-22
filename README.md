@@ -4,7 +4,7 @@
 
 - [Description](#Description)
 - [Demo](#Demo)
-- [Languages](#Languages)
+- [Screenshots](#Screenshots)
 
 ## Description
 
