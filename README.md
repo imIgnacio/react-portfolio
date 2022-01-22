@@ -14,8 +14,8 @@ Being a web developer means being part of a community. You’ll need a place to 
 
 The following links redirect you to deployed application and github profile.
 
-https://github.com/imIgnacio/react-portfolio
-https://imignacio.github.io/react-portfolio/
+- https://github.com/imIgnacio/react-portfolio
+- https://imignacio.github.io/react-portfolio/
 
 
 ## Screenshots
