@@ -11,6 +11,7 @@ const styles = {
   },
   h3: {
     color: 'white',
+    marginTop: '16px',
   },
   ul: {
     listStyleType: 'none',

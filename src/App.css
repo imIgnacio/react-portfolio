@@ -30,10 +30,6 @@ h2 {
   color: #b8e994;
 }
 
-h3 {
-  margin-top: 20px;
-}
-
 hr {
   color: #eb2f06;
 }
@@ -51,11 +47,23 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 40px 0;
+  margin: 32px 0;
 }
 
 .about-title {
-  margin: 10px 0;
+  margin: 0 0 10px 0;
+}
+
+.projects {
+  display: flex;
+  margin: 32px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects-title {
+  margin: 0 0 10px 0;
 }
 
 .about p {
@@ -80,5 +88,24 @@ hr {
 .project-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  transform: scale(1.25);
+}
+
+.card{
+  border: 5px solid #60a3bc;
+  border-radius: 20px;
+  flex: 0 1 400px;
+  height: 400px;
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 24px;
+  margin-right: 24px;
+  text-align: left;
+  transition: 1s;
 }
