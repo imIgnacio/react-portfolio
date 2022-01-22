@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Footer from './Footer';
 import Header from './Header';
+import Projects from './Projects';
 import photo from './assets/ignacioPhoto.jpg'
 
 function Portfolio() {
@@ -39,6 +40,11 @@ function Portfolio() {
             knowledge to build this web site.
           </p>
         </div>
+      </section>
+      <hr/>
+      <section className='projects'>
+        <h2 className='projects-title'>Projects</h2>
+        <Projects/>
       </section>
       <Footer/>
     </div>
