@@ -10,10 +10,8 @@ function Portfolio() {
     <div>
       <Header/>
       <hr/>
+      <h2 className='about-title'>About</h2>
       <section className='about'>
-        <h2 className='about-title'>About</h2>
-        <div className='main-paragraph'>
-          <img className='selfie' src={photo}/>
           <p>
             Ignacio Diaz is a Chilean Guy, 22 years old, who currently lives in Melbourne, Australia.
             I have been insterested in technology since I was on primary school, when I used to ask myself
@@ -25,8 +23,10 @@ function Portfolio() {
             These are some of the reasons why on 2018 I decided to study Computer and Software Engineering at University.
             On Python I coded some little softwares, I learnt basics of coding such as Arrys, Counters, Variables,
             Sub-Programs among other basics.
-            <br/>
-            <br/>
+          </p>
+          <br/>
+          <img className='selfie' src={photo}/>
+          <p>
             The following year was even more exciting for me, I learnt Java, very popular programming language.
             I must admit Java's syntax is harder compared to Python's, I had to read and watch a lot of tutorial to 
             understand what I had to do.
@@ -39,7 +39,6 @@ function Portfolio() {
             In August I joined Monash Boot Camp Spot to study Full Stack web development, where I have been gaining
             knowledge to build this web site.
           </p>
-        </div>
       </section>
       <hr/>
       <section className='projects'>
