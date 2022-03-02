@@ -25,3 +25,5 @@ The following links redirect you to deployed application and github profile.
 ![Image](./public/screenshots/screenshot3.jpg)
 
 If you have any questions about the project, contact us at: https://github.com/imIgnacio
+
+:)
