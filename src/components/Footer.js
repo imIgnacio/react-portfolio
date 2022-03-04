@@ -5,7 +5,7 @@ import twitter from './assets/twitter.png'
 
 const styles = {
   footer: {
-    backgroundColor: '#079992',
+    backgroundColor: '#3ae374',
     display: 'flex',
     flexDirection: 'column',
   },
