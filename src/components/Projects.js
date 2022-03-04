@@ -4,6 +4,7 @@ const styles = {
         fontSize: '150%',
         display: 'inline-block',
         marginTop: '32px',
+        backgroundColor: '#0a3d62',
         padding: '15px 20px 15px 20px',
         borderRadius: '10px',
         boxShadow: 'inset 0 0 10px black',

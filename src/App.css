@@ -63,9 +63,7 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   background-image: url('./components/assets/background.png');
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: 'top center';
 }
 
 .projects-title {
