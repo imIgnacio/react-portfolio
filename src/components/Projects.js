@@ -1,7 +1,7 @@
 const styles = {
     h3: {
         color: "black",
-        fontSize: '150%',
+        fontSize: '100%',
         display: 'inline-block',
         marginTop: '32px',
         backgroundColor: '#0a3d62',
@@ -12,18 +12,8 @@ const styles = {
         borderBottomLeftRadius: '0',
         color: '#b8e994',
     },
-    cardHtml: {
-        background: "url('https://ak.picdn.net/shutterstock/videos/7080529/thumb/1.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: 'center',
-    },
-    cardJava: {
-        background: "url('https://marvel-b1-cdn.bc0a.com/f00000000156946/www.jrebel.com/sites/rebel/files/image/2021-03/2021%20java%20technology%20report.jpeg')",
-        backgroundSize: "cover",
-        border: '5px solid #60a3bc',
-    },
-    cardGithub: {
-        background: "url('https://miro.medium.com/max/1024/1*wzEf4qVNT7mUeMIeQWTJbg.jpeg')",
+    cardTuna4Sale: {
+        background: "url('https://www.exposhowradio.com/wp-content/uploads/ecommerce.jpg')",
         backgroundSize: "cover",
         backgroundPosition: 'center',
     },
@@ -46,19 +36,9 @@ const styles = {
 
 function projects() {
     return <div className="project-container">
-         <a href="https://github.com/imIgnacio/homework2" target="_blank">
-                <figure className="card" style={styles.cardHtml}>
-                    <h3 style={styles.h3}>HTML</h3>
-                </figure>
-            </a>
-            <a href="https://github.com/imIgnacio/my-java-programs" target="_blank">
-                <figure className="card" style={styles.cardJava}>
-                    <h3 style={styles.h3}>JAVA</h3>
-                </figure>
-            </a>
-            <a href="https://github.com/imignacio" target="_blank">
-                <figure className="card" style={styles.cardGithub}>
-                    <h3 style={styles.h3}>GITHUB</h3>
+         <a href="https://tuna4sale.herokuapp.com" target="_blank">
+                <figure className="card" style={styles.cardTuna4Sale}>
+                    <h3 style={styles.h3}>Tuna 4 Sale</h3>
                 </figure>
             </a>
             <a href="https://github.com/TrangTheDev/flightFinder" target="_blank">

@@ -39,9 +39,9 @@ function Footer() {
   return <div className='footer' style={styles.footer}>
     <h3 style={styles.h3}>Made with ❤️ by Ignacio Diaz</h3>
     <ul style={styles.ul}>
-      <li style={styles.li}><a style={styles.a} href="https://www.github.com/imIgnacio"><img style={styles.icon} src={github}/></a></li>
-      <li style={styles.li}><a style={styles.a} href="https://www.linkedin.com/in/ignacio-diaz-ruiz/"><img style={styles.icon} src={linkedin}/></a></li>
-      <li style={styles.li}><a style={styles.a} href="https://twitter.com/chachoim"><img style={styles.icon} src={twitter}/></a></li>
+      <li style={styles.li}><a style={styles.a} href="https://www.github.com/imIgnacio" target="_blank"><img style={styles.icon} src={github}/></a></li>
+      <li style={styles.li}><a style={styles.a} href="https://www.linkedin.com/in/ignacio-diaz-ruiz/" target="_blank"><img style={styles.icon} src={linkedin}/></a></li>
+      <li style={styles.li}><a style={styles.a} href="https://twitter.com/chachoim" target="_blank"><img style={styles.icon} src={twitter}/></a></li>
     </ul>
   </div>;
 }

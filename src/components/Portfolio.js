@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import Projects from './Projects';
-import photo from './assets/ignacioPhoto.jpg'
+import photo from './assets/Ignacio-Paris.jpeg'
 
 function Portfolio() {
 

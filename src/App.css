@@ -66,15 +66,17 @@ hr {
 
 .projects {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items:flex-start;
   justify-content: center;
   background-image: url('./components/assets/background.png');
   background-size: cover;
+  padding-bottom: 20px;
 }
 
 .projects-title {
-  margin: 16px 0;
+  padding-top: 16px;
+  margin: auto;
 }
 
 .about p {
@@ -92,13 +94,6 @@ hr {
   border: 1px solid white;
 }
 
-.project-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .card:hover {
   transform: scale(1.25);
 }
@@ -107,12 +102,10 @@ hr {
   border: 5px solid #60a3bc;
   border-radius: 20px;
   flex: 0 1 400px;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   margin-top: 24px;
-  margin-bottom: 50px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 32px;
   text-align: left;
   transition: 1s;
 }
