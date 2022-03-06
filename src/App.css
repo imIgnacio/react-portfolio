@@ -11,8 +11,15 @@
   color: #ffcccc;
 }
 
+@keyframes blur {
+  0% {filter: blur(12px);}
+  100% {filter: blur(0px);}
+}
+
 body {
   background-color: whitesmoke;
+  animation-name: blur;
+  animation-duration: 0.8s;
 }
 
 .portfolio-app {
@@ -102,7 +109,7 @@ hr {
   flex: 0 1 400px;
   height: 400px;
   width: 400px;
-  margin-top: 50px;
+  margin-top: 24px;
   margin-bottom: 50px;
   margin-left: 24px;
   margin-right: 24px;

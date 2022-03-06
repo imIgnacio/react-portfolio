@@ -46,32 +46,32 @@ const styles = {
 
 function projects() {
     return <div className="project-container">
-         <a href="https://github.com/imIgnacio/homework2">
+         <a href="https://github.com/imIgnacio/homework2" target="_blank">
                 <figure className="card" style={styles.cardHtml}>
                     <h3 style={styles.h3}>HTML</h3>
                 </figure>
             </a>
-            <a href="https://github.com/imIgnacio/my-java-programs">
+            <a href="https://github.com/imIgnacio/my-java-programs" target="_blank">
                 <figure className="card" style={styles.cardJava}>
                     <h3 style={styles.h3}>JAVA</h3>
                 </figure>
             </a>
-            <a href="https://github.com/imignacio">
+            <a href="https://github.com/imignacio" target="_blank">
                 <figure className="card" style={styles.cardGithub}>
                     <h3 style={styles.h3}>GITHUB</h3>
                 </figure>
             </a>
-            <a href="https://github.com/TrangTheDev/flightFinder">
+            <a href="https://github.com/TrangTheDev/flightFinder" target="_blank">
                 <figure className="card" style={styles.cardFlightFinder}>
                     <h3 style={styles.h3}>FLIGHT FINDER</h3>
                 </figure>
             </a>
-            <a href="https://github.com/imIgnacio/hw6-weatherDashboard">
+            <a href="https://github.com/imIgnacio/hw6-weatherDashboard" target="_blank">
                 <figure className="card" style={styles.cardWeather}>
                     <h3 style={styles.h3}>WEATHER DASHBOARD</h3>
                 </figure>
             </a>
-            <a href="https://github.com/imIgnacio/warehouse-manager">
+            <a href="https://github.com/imIgnacio/warehouse-manager" target="_blank">
                 <figure className="card" style={styles.cardWarehouse}>
                     <h3 style={styles.h3}>CAR MANAGMENT</h3>
                 </figure>
