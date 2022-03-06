@@ -9,7 +9,6 @@ function Portfolio() {
   return (
     <div>
       <Header/>
-      <hr/>
       <h2 className='about-title'>About</h2>
       <section className='about'>
           <p>

@@ -1,10 +1,12 @@
 import Navigation from "./Navigation";
+import logo from './assets/IgnaciosWebDev.png'
+
 
 function Header() {
 
   return <div className="header">
-    <h1 className="name">Ignacio's React Portfolio</h1
-    ><Navigation/>
+    <img className="logo" src={logo} alt='Ignacio Web Dev🔧' />
+    <Navigation/>
     </div>
 
 }
